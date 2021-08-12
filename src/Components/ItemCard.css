@@ -1,0 +1,40 @@
+.containers
+{
+    width: 60%;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.item-card-image
+{
+    width: 10em;
+    height: 10em;
+    padding: 0.6em;
+    border: 1px solid #777;
+    border-radius: 0.5em;
+}
+
+.content-listing
+{
+    margin-left: -10em;
+    margin-top: -0.8em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: -13.7em;
+}
+
+.free-charge
+{
+    color: green;
+    margin-left: -13.7em;
+}
+
+.text-watchers{
+    color: red;
+}
