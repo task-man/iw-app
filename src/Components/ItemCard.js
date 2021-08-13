@@ -957,7 +957,7 @@ function ItemCard() {
     }, [])
 
     return (
-        <div className="containers mb-4">
+        <div className="container mt-4 mb-4">
             {
                 listings.map((listing, index) =>
                     <React.Fragment>
@@ -966,27 +966,27 @@ function ItemCard() {
                                 <img src="https://i.ebayimg.com/images/g/s7wAAOSwbQBhEFAN/s-l500.jpg"
                                      className="item-card-image" alt="test image"/>
                             </div>
-                            <div className="col-10 pt-1 content-listing">
+                            <div className="col-10 content-listing">
                                 <strong>{listing.title}</strong>
-                                <div className="text-muted" style={{marginLeft: "0.5em"}}>
+                                <div className="text-muted">
                                     8000 + Feedback Every day low prices & Great services
                                 </div>
-                                <div className="text-muted" style={{marginLeft: "-18.8em"}}>
+                                <div className="text-muted">
                                     Pre-owned
                                 </div>
                                 <div className="price">
                                     $484
                                 </div>
-                                <div className="text-muted" style={{marginLeft: "-18.8em"}}>
+                                <div className="text-muted">
                                     Buy it now
                                 </div>
                                 <div className="free-charge">
                                     Free 4 days shippings
                                 </div>
-                                <div className="text-muted" style={{marginLeft: "-17.8em"}}>
+                                <div className="text-muted">
                                     Free returns
                                 </div>
-                                <div className="text-watchers" style={{marginLeft: "-16.8em"}}>
+                                <div className="text-watchers">
                                     23 + watchers
                                 </div>
                             </div>
